@@ -1,17 +1,13 @@
-import Nav from "../components/Nav";
-import Header from "../components/Header";
-import Skills from "../components/Skills";
-import Footer from "../components/Footer";
-import PortfolioSection from "../components/PortfolioSection";
+import React from 'react'
+import index from '../routes/index'
 
-export default function Home() {
-	return (
-		<main>
-			<Nav />
-			<Header />
-			<Skills />
-			<PortfolioSection />
-			<Footer />
-		</main>
-	)
+const index = () => {
+
+// Retorna componente index desde carpeta routes
+
+  return (
+	<index />
+  )
 }
+
+export default index
